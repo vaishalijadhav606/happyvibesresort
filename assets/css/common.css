@@ -1,0 +1,9 @@
+:root {
+    font-size: 16px;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+.object-fit-cover {
+    object-fit: cover;
+}

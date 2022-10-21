@@ -1,0 +1,18 @@
+{ "gallery" : [
+    {
+        "id": "1",
+        "img": "https://ik.imagekit.io/ikmedia/backlit.jpg"
+    },
+    {
+        "id": "2",
+        "img": "https://ik.imagekit.io/ikmedia/women-dress-2.jpg"
+    },
+    {
+        "id": "3",
+        "img": "https://ik.imagekit.io/ikmedia/women-dress-2.jpg"
+    },
+    {
+        "id": "4",
+        "img": "https://ik.imagekit.io/ikmedia/backlit.jpg"
+    }
+] }
