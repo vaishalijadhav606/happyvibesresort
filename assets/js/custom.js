@@ -4,11 +4,13 @@ fetch("./assets/data/data.json")
   })
   .then(function (data) {
     appendData(data.gallery);
+    appendAboutData(data.about);
   })
   .catch(function (err) {
     console.log("error: " + err);
   });
 function appendData(data) {
+  console.log(data);
   for (var i = 0; i < data.length; i++) {
     const element =
       '<div class="col-6 h-50 gallery-img-container"><img class="img-fluid object-fit-cover w-100 h-100" alt="image-' +
@@ -18,4 +20,8 @@ function appendData(data) {
       '"></div>';
     document.getElementById("galleryData").innerHTML += element;
   }
+}
+
+function appendAboutData(data) {
+  document.getElementById("about-data").innerHTML += data;
 }
